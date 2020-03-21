@@ -1,4 +1,56 @@
+/*
+############### CSS ######################
+Para hacer una modificacion de css en la pagina web llamo la eetiqueta 
+( cualquier etiqueta) y y encierro en llaves
+*/
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /* Para escoger el tipo de letra*/
+}
+
+/* ETIQUETA NAV*/
 nav {
+
+    /*background-color: #0CAEE8;*/  /* cOLOR DE FONDO Oscuro*/
+    background-color: #E4FEFE;    /* color de fond Claro */
+    margin: 3px;  /* Margen externa a todos los 4 lados en pixeles*/
+    padding: 0,8px; /* Margen interna  a los 4 lados en pixeles*/
+    
+}
+
+li{
+    display: inline-block; /* Visualizacion en  bloques de linea ( Ordena o alinea a un lado)*/
+    margin: 5px;    /* Margen externa a todos los 4 lados en pixeles*/
+    padding-left:  5px; /* Margen interna a la izquierda en pixeles*/
+    padding-right: 5px; /* Margen interna a la drecha en pixeles*/
+}
+
+a {
+    /*color: aliceblue;*/  /* Color dde la fuente (latra)*/
+}
+
+header{
     background-color: #E4FEFE;
+    margin: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: #E4FEFE;
+    margin: 5px;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+section{
+    background-color: #E4FEFE;
+    margin: 5px;
+    display: inline-block;
+    width: 62%;
+    padding: 10px;
 }
