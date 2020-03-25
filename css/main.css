@@ -4,6 +4,11 @@ Para hacer una modificacion de css en la pagina web llamo la eetiqueta
 ( cualquier etiqueta) y y encierro en llaves
 */
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;  /* Para escoger el tipo de letra*/
 }
@@ -18,17 +23,28 @@ nav {
     
 }
 
-li{
+.li-nav {
     display: inline-block; /* Visualizacion en  bloques de linea ( Ordena o alinea a un lado)*/
     margin: 5px;    /* Margen externa a todos los 4 lados en pixeles*/
     padding-left:  5px; /* Margen interna a la izquierda en pixeles*/
     padding-right: 5px; /* Margen interna a la drecha en pixeles*/
 }
 
-a {
-    /*color: aliceblue;*/  /* Color dde la fuente (latra)*/
+.li-aside{
+
+    margin: 5px;    /* Margen externa a todos los 4 lados en pixeles*/
+    padding-left:  5px; /* Margen interna a la izquierda en pixeles*/
+    padding-right: 5px; /* Margen interna a la drecha en pixeles*/
+}
 }
 
+a {
+   color: cadetblue; /*color: aliceblue;*/  /* Color dde la fuente (latra)*/
+}
+
+h2 {
+    color: #12B1FF;
+}
 header{
     background-color: #E4FEFE;
     margin: 5px;
