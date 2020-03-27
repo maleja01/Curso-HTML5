@@ -11,15 +11,15 @@
     <body>
         <!--Este es el menu (nav)-->
        <nav>
-       <ul>
-           <!--Etiqueta para haceer un elnlace (a)-->
-           <li class="li-nav"> <a href="index.html">Inicio</a> </li>
-           <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
-           <LI class="li-nav"> <a href="pagina-css.html">CSS</a> </LI>
-           <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>
-       </ul>
+            <ul class="ul-nav">
+                <!--Etiqueta para haceer un elnlace (a)-->
+                <li class="li-nav"> <a href="index.html">Inicio</a> </li>
+                <li class="li-nav"> <a href="pagina-html.html">HTML</a> </li>
+                <LI class="li-nav"> <a href="pagina-css.html">CSS</a> </LI>
+                <li class="li-nav"> <a href="pagina-js.html">JavaScript</a> </li>
+            </ul>
 
-       <ul>
+       <ul class="ul-buscar">
            <label for="">Buscar</label>
            <input type="text">
            <button>Buscar</button>
@@ -165,6 +165,8 @@
                 <p>ls etiqueta a se usa para crear enlaces (se puede usar en cualquier parte)</p>
                 <p>la propiedad o atributo que enlaza es el href=""</p>
                 <p>llamammos a paginas con su nombre ( Pagina.html)  o a secciones con el # (#seccion1)</p>
+
+                <a href="#">Esta es una a</a>
             </article>
 
             <hr>
@@ -174,6 +176,8 @@
                 <h2> IMG () MAGENES</h2>
                 <P> La etirqueta img se usa para enlazar imagenes</P>
                 <p>la propiedad o articulo que enlaza es src=""</p>
+
+                <img src="img/html y css.jpeg" width="150" alt="imagen HTML5" title="Esta es una etiqueta IMG">
             </article>
 
 
@@ -192,9 +196,46 @@
             <article>
                 <h2>LI (Listas)</h2>
                 <p>se usa para hacer listas</p>
+
+                <li> Esta es un LI (Lista)</li>
             </article>
             <hr>
             <br>
+
+            <article>
+                <h2>LABEL ( Etiqueta)</h2>
+                <p>Label se usa para hacer titulos o etiquetas.</p>
+
+                <label> Este es un label (etiqueta)</label>
+            </article>
+            <hr>
+            <br>
+
+            <article>
+                <h2>INPUT ( Es una caja de texto)</h2>
+                    <p>La etiqueta inpu son cajas de texto que se usan para que algun usuario de la pagina</p>
+                    <p>ingrese datos a ella. ( Formularios de contactenos,formularios de buscar.)</p>
+                    <p>El input tiene diferentes tipos (Type)</p>
+                    <p> Tipo: Text, email, number,password,imgen, tel, url, date, </p>
+
+            <form>
+                <label class="label-form"> input tipo texto</label> <input class="input-form" type="text">
+                <label> input tipo email</label> <input class="input-form" type="email">
+                <label> input tipo numero</label> <input class="input-form"type="number">
+                <label> input tipo contraseña</label> <input class="input-form"type="password">
+                <label> input tipo imagen</label> <input class="input-form" type="image">
+                <label> input tipo telefono</label> <input class="input-form" type="tel">
+                <label> input tipo dominio web</label> <input class="input-form" type="url">
+                <label> input tipo fecha</label> <input class="input-form" type="date">
+            </form>  
+            
+            
+            
+            
+            </article>
+            <hr>
+            <br>
+
 
             <article>
                 <h2>BUTTON ( Boton)</h2>

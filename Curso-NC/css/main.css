@@ -23,6 +23,14 @@ nav {
     
 }
 
+.ul-nav{
+    display: inline-block;
+}
+
+.ul-buscar {
+    display: inline-block;
+    }
+
 .li-nav {
     display: inline-block; /* Visualizacion en  bloques de linea ( Ordena o alinea a un lado)*/
     margin: 5px;    /* Margen externa a todos los 4 lados en pixeles*/
@@ -36,7 +44,7 @@ nav {
     padding-left:  5px; /* Margen interna a la izquierda en pixeles*/
     padding-right: 5px; /* Margen interna a la drecha en pixeles*/
 }
-}
+
 
 a {
    color: cadetblue; /*color: aliceblue;*/  /* Color dde la fuente (latra)*/
@@ -59,7 +67,7 @@ aside {
     background-color: #E4FEFE;
     margin: 5px;
     display: inline-block;
-    width: 30%;
+    width: 30%;             /*Ancho*/
     padding: 10px;
 }
 
@@ -69,4 +77,12 @@ section{
     display: inline-block;
     width: 62%;
     padding: 10px;
+}
+
+.input-form {
+    display: flex;
+}
+
+.label-form {
+    display: inline-block;
 }
