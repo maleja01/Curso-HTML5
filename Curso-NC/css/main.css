@@ -81,6 +81,9 @@ section{
 
 .article-form{
     background-image: url("../img/contactenos.jpg");
+    background-repeat: round;
+    padding: 15px;
+
 }
 
 .input-form {
@@ -89,15 +92,21 @@ section{
 
 .label-form {
     display: inline-block;
-    background-color: aliceblue;
+    color: aliceblue;
 }
 
 
 .div-form-label {
     display: inline-block;
     width:220px;
+    margin: 5px;
 }
 .div-form-input{
     display: inline-block;
     width: 400px;
+    margin: 5px;
+}
+
+.footer{
+    background-image: url("../img/fondo-oscuro.jpg");
 }
